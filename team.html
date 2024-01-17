@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/team.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <script src="./js/script.js" defer></script>
+    <meta property="og:title" content="Privacy - Ice Generator" />
+    <meta property="og:site_name" content="Ice Generator" />
+    <meta property="og:url" content=https://www.icegenerator.xyz/>
+    <meta property="og:description" content="The main Ice Generator team." />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <header>
+      <div class="main">
+        <div class="logo">
+          <img src="./assets/logo.gif" alt="" />
+          <h1 class="logoname"><a href="index.html">Ice Generator</a></h1>
+        </div>
+        <div class="links">
+          <p class="link">
+            <a href="index.html"><button>Home</button></a>
+          </p>
+          <div class="sep">|</div>
+          <p class="link">
+            <a href="#about"><button>About</button></a>
+          </p>
+          <div class="sep">|</div>
+          <p class="link">
+            <a href="team.html"><button>Staff</button></a>
+          </p>
+          <div class="sep">|</div>
+          <p class="link">
+            <a href="#prices"><button>Prices</button></a>
+          </p>
+          <div class="sep">|</div>
+          <p class="link">
+            <a href="https://int.icegenerator.xyz/basic/link1"
+              ><button>Claim Basic</button></a
+            >
+          </p>
+          <div class="sep">|</div>
+          <p class="link" id="join-discord">
+            <a><button id="join-discord">Discord</button></a>
+          </p>
+          <div class="sep">|</div>
+          <p class="link">
+            <a href="/terms.html"><button>Terms</button></a>
+          </p>
+          <div class="sep">|</div>
+          <p class="link">
+            <a href="/privacy.html"><button>Privacy</button></a>
+          </p>
+        </div>
+        <div
+          class="dropdown"
+          style="float: right"
+          onclick="document.querySelector('.dropdown-content').classList.toggle('displayblock')"
+        >
+          <button class="dropbtn">
+            <img src="./assets/hamburger.png" alt="" class="hamburger" />
+          </button>
+          <div class="dropdown-content">
+            <a href="index.html"><button>Home</button></a>
+            <a href="#about"><button>About</button></a>
+            <a href="team.html"><button>Staff</button></a>
+            <a href="#prices"><button>Prices</button></a>
+            <a href="https://int.icegenerator.xyz/basic/link1"
+              ><button>Claim Basic</button></a
+            >
+            <a id="join-discord"><button>Discord</button></a>
+            <a href="/terms.html"><button>Terms</button></a>
+            <a href="/privacy.html"><button>Privacy</button></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="team">
+      <h1 class="Meet">Meet The Team</h1>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="banner"></div>
+          <div class="pfp-container">
+            <img src="./assets/avatars/3.webp" class="pfp" />
+          </div>
+          <div class="text">
+            <h1>! "Flixer</h1>
+            ・ Owner and Founder
+          </div>
+          <div class="social-media">
+            <a
+              href="https://youtube.com/@FlixerBS01"
+              class="fa-brands fa-youtube"
+            ></a>
+            <a
+              href="https://t.me/flixerdiscord"
+              class="fa-brands fa-telegram"
+            ></a>
+            <a href="https://www.icegenerator.xyz/" class="fa fa-globe"></a>
+            <a
+              href="https://discord.com/invite/freegenerator"
+              class="fa-brands fa-discord"
+            ></a>
+          </div>
+        </div>
+        <div class="mySlides fade">
+          <div class="banner"></div>
+          <div class="pfp-container">
+            <img src="./assets/avatars/1.webp" class="pfp" />
+          </div>
+          <div class="text">
+            <h1>Ice Bear</h1>
+            ・ Owner
+          </div>
+          <div class="social-media"></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="banner"></div>
+          <div class="pfp-container">
+            <img src="./assets/avatars/2.webp" class="pfp" />
+          </div>
+          <div class="text">
+            <h1>Styx</h1>
+            ・ Owner
+          </div>
+          <div class="social-media"></div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="banner"></div>
+          <div class="pfp-container">
+            <img src="./assets/avatars/4.webp" class="pfp" />
+          </div>
+          <div class="text">
+            <h1>Hampster</h1>
+            ・ Co Owner
+          </div>
+          <div class="social-media">
+            <a
+              href="https://paypal.me/Shpnest?country.x=GBlocale.x=en_GB"
+              class="fa-brands fa-paypal"
+            ></a>
+            <a
+              href="https://discord.com/invite/kRhnepbw"
+              class="fa-brands fa-discord"
+            ></a>
+            <a
+              href="https://open.spotify.com/track/7556LMF1GR5QawF5PHLjI7"
+              class="fa-brands fa-spotify"
+            ></a>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <!-- Next and previous buttons -->
+          <button onclick="plusSlides(-1)" class="switch">Previous</button>
+          <button onclick="plusSlides(1)" class="switch">Next</button>
+        </div>
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </section>
+  </body>
+</html>

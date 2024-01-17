@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice Generator</title>
+    <link rel="shortcut icon" href="./assets/logo.gif" type="image/x-icon" />
+    <script src="./js/mainscript.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta property="og:title" content="Main - Ice Generator" />
+    <meta property="og:site_name" content="Ice Generator" />
+    <meta property="og:url" content=https://www.icegenerator.xyz/>
+    <meta
+      property="og:description"
+      content="The main page for the Ice Generator
+    website."
+    />
+    <meta property="og:type" content="website" />
+  </head>
+
+  <body>
+    <header>
+      <div class="main">
+        <div class="logo">
+          <img src="./assets/logo.gif" alt="" />
+          <h1 class="logoname"><a href="index.html">Ice Generator</a></h1>
+        </div>
+        <div class="links">
+          <p class="link">
+            <a href="index.html"><button>Home</button></a>
+          </p>
+          <div class="sep">|</div>
+          <p class="link">
+            <a href="#about"><button>About</button></a>
+          </p>
+          <div class="sep">|</div>
+          <p class="link">
+            <a href="team.html"><button>Staff</button></a>
+          </p>
+          <div class="sep">|</div>
+          <p class="link">
+            <a href="#prices"><button>Prices</button></a>
+          </p>
+          <div class="sep">|</div>
+          <p class="link">
+            <a href="https://int.icegenerator.xyz/basic/link1"
+              ><button>Claim Basic</button></a
+            >
+          </p>
+          <div class="sep">|</div>
+          <p class="link" id="join-discord">
+            <a><button id="join-discord">Discord</button></a>
+          </p>
+          <div class="sep">|</div>
+          <p class="link">
+            <a href="/terms.html"><button>Terms</button></a>
+          </p>
+          <div class="sep">|</div>
+          <p class="link">
+            <a href="/privacy.html"><button>Privacy</button></a>
+          </p>
+        </div>
+        <div
+          class="dropdown"
+          style="float: right"
+          onclick="document.querySelector('.dropdown-content').classList.toggle('displayblock')"
+        >
+          <button class="dropbtn">
+            <img src="./assets/hamburger.png" alt="" class="hamburger" />
+          </button>
+          <div class="dropdown-content">
+            <a href="index.html"><button>Home</button></a>
+            <a href="#about"><button>About</button></a>
+            <a href="team.html"><button>Staff</button></a>
+            <a href="#prices"><button>Prices</button></a>
+            <a href="https://int.icegenerator.xyz/basic/link1"
+              ><button>Claim Basic</button></a
+            >
+            <a id="join-discord"><button>Discord</button></a>
+            <a href="/terms.html"><button>Terms</button></a>
+            <a href="/privacy.html"><button>Privacy</button></a>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="h1">Welcome To Ice Generator</h1>
+      <div style="width: 100%; display: flex; justify-content: center">
+        <button class="btn">Learn More</button>
+      </div>
+    </header>
+
+    <section class="mainsection" id="about">
+      <div class="welcome">
+        <div class="about">
+          <h1>About Us</h1>
+          <div class="content2">
+            <p class="content3">
+              Ice Generator, founded by Flixer, has been offering free items and
+              premium services since September 2021. With over 5,000 members, we
+              provide Discord boosts, bot members and more. We're committed to
+              giving away paid services and other valuable items for free, all
+              while maintaining smooth operations with our experienced staff.
+              Join us today!
+            </p>
+            <img src="./assets/iceberg.png" alt="" class="iceberg" />
+          </div>
+        </div>
+
+        <div></div>
+      </div>
+
+      <div class="context">
+        <h1>
+          We've got
+          <button class="button">
+            <span class="actual-text">&nbsp;everything&nbsp;</span>
+            <span class="hover-text" aria-hidden="true"
+              >&nbsp;everything&nbsp;</span
+            >
+          </button>
+          <span>you need</span>
+        </h1>
+      </div>
+
+      <div class="all">
+        <div class="services">
+          <img src="./assets/movies.png" alt="" class="icon" />
+          <h1>Movies</h1>
+          <p>
+            We have everything for all your entertainment needs:
+            <strong>Netflix</strong>, <strong>Disney+</strong>,
+            <strong>HBO</strong> and more!
+          </p>
+        </div>
+
+        <div class="services">
+          <img src="./assets/games.png" alt="" class="icon" />
+          <h1>Games</h1>
+          <p>
+            Gaming is an important part of life and that's where we come in with
+            <strong>Steam</strong>, <strong>Epic Games</strong>,
+            <strong>Valorant</strong>, <strong>Fortnite</strong> and many more!
+          </p>
+        </div>
+
+        <div class="services">
+          <img src="./assets/others.png" alt="" class="icon" />
+          <h1>Others</h1>
+          <p>
+            Don't want others knowing your location? We've got you covered with
+            services such as <strong>NordVPN</strong> and
+            <strong>CyberGhostVPN</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="prices">
+      <div class="prices">
+        <div class="card">
+          <div class="header">
+            <span class="title">Roblox Generator</span>
+            <span class="price"
+              >$2.99
+              <p>Lifetime</p></span
+            >
+          </div>
+          <p class="desc">
+            Your one-stop shop for Roblox alt accounts, get one whenever you
+            need and use it for anything!
+          </p>
+          <ul class="lists">
+            <li class="list">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <span>Roblox Accounts</span>
+            </li>
+            <li class="list">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <span>1 Minute Cooldown</span>
+            </li>
+            <li class="list">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <span>99.9% Working Accounts</span>
+            </li>
+          </ul>
+          <button type="button" class="action" id="join-discord">
+            Get Started
+          </button>
+        </div>
+
+        <div class="card">
+          <div class="header">
+            <span class="title">Basic Generator</span>
+            <span class="price"
+              >$3.99
+              <p>Lifetime</p></span
+            >
+          </div>
+          <p class="desc">
+            A basic account generator to provide you with access to various
+            services, offering accounts with basic quality.
+          </p>
+          <ul class="lists">
+            <li class="list">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <span>1 minute cooldown</span>
+            </li>
+            <li class="list">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <span>Better stock</span>
+            </li>
+            <li class="list">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <span>More accounts (~30 accounts) </span>
+            </li>
+          </ul>
+          <button type="button" class="action" id="join-discord">
+            Get Started
+          </button>
+        </div>
+
+        <div class="card">
+          <div class="header">
+            <span class="title">Premium Generator</span>
+            <span class="price"
+              >$9.89
+              <p>Lifetime</p></span
+            >
+          </div>
+          <p class="desc">
+            Nothing is not premium in the premium gen! The stock, the accounts,
+            everything!
+          </p>
+          <ul class="lists">
+            <li class="list">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <span>30 second cooldown</span>
+            </li>
+            <li class="list">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <span>Better stock</span>
+            </li>
+            <li class="list">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <span>More accounts (~45 accounts)</span>
+            </li>
+          </ul>
+          <button type="button" class="action" id="join-discord">
+            Get Started
+          </button>
+        </div>
+
+        <div class="card">
+          <div class="header">
+            <span class="title">OP Generator</span>
+            <span class="price"
+              >$24.49
+              <p>Lifetime</p></span
+            >
+          </div>
+          <p class="desc">
+            Simply overpowered. Spam commands and get your very own ultra
+            quality account for anything from 50+ services.
+          </p>
+          <ul class="lists">
+            <li class="list">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <span>No Cooldown</span>
+            </li>
+            <li class="list">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <span>The best stock</span>
+            </li>
+            <li class="list">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <span>More accounts (~50 accounts)</span>
+            </li>
+          </ul>
+          <button type="button" class="action" id="join-discord">
+            Get Started
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/scroll.js"></script>
+  </body>
+</html>
